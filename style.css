@@ -1,0 +1,64 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100vh;
+    
+}
+a{
+    text-decoration: none;
+    color: blue;
+    
+}
+img{
+    width: 175px;
+    height: 225px;
+    border-radius: 7px;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
+    justify-content: space-around;
+}
+/* This is class selecor */
+.header{
+    height: 60px;
+    background-color: tan;
+    padding: 8px;
+    display: flex;
+    justify-content: flex-start
+    
+}
+
+.footer{
+   
+    display: flex;
+    background-color: burlywood;
+    margin-top: auto;
+}
+.card{
+    width: 350px;
+    background-color: rgb(196, 160, 107);    
+    border-radius: 8px;
+    border: 1px solid #eee;
+    box-shadow: 2px rgb(187, 177, 155);
+    padding: 8px;
+}
+
+.title{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.context{
+    
+    text-align: center;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
